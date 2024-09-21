@@ -1,0 +1,10 @@
+name = "mevludi"
+surname = "tavadze"
+age = 15 
+height = 180 
+city = "zestafoni"
+item = "phone"
+number = 2350000
+x = 100
+y = -200
+building = "house"
