@@ -13,12 +13,12 @@ print(list)
 #მეორე დავალება
 print(list[:3])
 print(list[7:])
-print(list[2:5])
+print(list[3:7])
 
 #მესამე დავალება
 print(list[:-7])
 print(list[-3:])
-print(list[-8:-4])
+print(list[-7:-3])
 
 x = "world"
 print(x[::-1])
