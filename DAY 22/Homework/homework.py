@@ -37,12 +37,12 @@ print(manual_reverse("mevludi"))
 
 
 
-# print("hello_world".upper())
-# print("HellO WorLd".lower())
-# print("HeLlO woRld".capitalize())
-# print("HeLlo WorLD".swapcase())
-# print("heLlo WORLD".swapcase())
-# print("hello world".find("w"))
+print("hello_world".upper())
+print("HellO WorLd".lower())
+print("HeLlO woRld".capitalize())
+print("HeLlo WorLD".swapcase())
+print("heLlo WORLD".swapcase())
+print("hello world".find("w"))
 
 
 
