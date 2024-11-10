@@ -4,7 +4,7 @@
 # 6) შექმენით list'ი და მეორე ელემენტად ჩაამატეთ ახალი ელემენტი
 # 7) შექმენით list'ი და ამოშალეთ ბოლო ელემენტი
 # 8) შექმენით list'ი და დათვალეთ რამდენი ელემენტია შიგნით
-
+# 9) შექმენით string'ი და დათვალეთ რამდენი სიმბოლოა შიგნით
 
 
 #დავალება 1
@@ -29,11 +29,15 @@ list4 =["dog","bird","cat"]
 list4.insert(1,"mouse")
 print(list4)
 
-#დავალება 4
+#დავალება 5
 list5 =["flower","tree","grass"]
 list5.remove("grass")
 print(list5)
 
-#დავალება 5
+#დავალება 6
 list6 =["Python","CSS","HTML","JavaScript","C++",]
 print(len(list6))
+
+#დავალება 7
+str1 ="mevludi"
+print(len(str1))
