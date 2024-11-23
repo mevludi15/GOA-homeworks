@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&display=swap');
+
+
+
+h1{
+    text-decoration: dashed solid;
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px; color: red;
+}
+
+h2{
+    text-decoration: dashed underline;
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px; color: red;
+}
+
+h3{
+    text-decoration: dotted underline;
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px; color: red;
+}
+
+h4{
+    text-decoration: double underline;
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px; color: red;
+}
+
+h5{
+    text-decoration: wavy underline;
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px;color: red; 
+}
+
+h6{
+    text-decoration: none, underline;    
+    font-family: "Bokor", sans-serif;
+    text-shadow: 6px, 4px; color: red;
+}

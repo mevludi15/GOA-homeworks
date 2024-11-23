@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/* bokor */
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/* Sevillana */
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+/* Dancing Script */
+
+
+
+
+
+h2{
+    color: green;
+    text-shadow: 2px 2px 5px yellow;
+    font-family: "Sevillana"
+}
+
+
+h1{
+    color: black;
+    text-shadow: 2px 2px 5px darkblue;
+    font-family: "Dancing Script";
+}
+
+h3{
+    color: black;
+    text-shadow: 2px 2px 5px red;
+    font-family: "Bokor";
+    
+}
