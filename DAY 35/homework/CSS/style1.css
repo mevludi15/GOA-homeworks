@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.child{
+    background-color:crimson;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.child2{
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.child3{
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.child4{
+    background-color: goldenrod;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

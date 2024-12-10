@@ -1,0 +1,31 @@
+ol{
+    list-style: upper-alpha;
+    list-style-position: inside;
+}
+
+ol.num2{
+    list-style-type: none;
+}
+
+input[type="button"]{
+    width: 50%;
+}
+
+input[type="text"]{
+    width: 50%;
+}
+
+input[type="password"]{
+    width: 50%;
+}
+
+input[type="submit"]{
+    width: 50%;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 255px 50px 255px 50px;
+}
