@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parkinsans:wght@300..800&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container{
+    background-color: hsl(244, 38%, 16%) ;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    justify-content:space-between;
+}
+
+img{
+    padding: 0 0 0 100px;
+    border-radius: 0 10px 10px 0;
+}
+
+.text{
+    padding: 0px 0px 0px 60px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Inter";
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter";
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.small{
+    font-size: 12px;
+    padding: -2px 0px 0px 0px;
+}
+
+h2{
+    color: white;
+    font-family: "Inter";
+    font-size: 20px;
+}
+
+.text1{
+    padding: 20px 50px 0px 0px;
+}
+
+.text2{
+    padding: 20px 0px 0px 0px;
+}
+
+.text3{
+    padding: 20px 0px 0px 50px;
+}
+
+b{
+    color: hsl(277, 64%, 61%);
+}
