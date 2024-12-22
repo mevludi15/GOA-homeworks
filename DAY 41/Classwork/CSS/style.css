@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Parkinsans:wght@300..800&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Parkinsans:wght@300..800&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sedans{
+    width: 200px;
+    height: 100%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.suvs{
+    width: 200px;
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.lexury{
+    width: 200px;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+.icon1{
+    padding: 30px;
+}
+
+.icon2{
+    padding: 30px;
+}
+
+.icon3{
+    padding: 30px;
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display";
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px;
+    font-family: "Lexend Deca";
+}
+
+.text1{
+    padding: 0px 0px 0px 30px;
+}
+
+.text2{
+    padding: 0px 0px 0px 30px;
+}
+
+.text3{
+    padding: 0px 0px 0px 30px ;
+}
+
+button{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.button1{
+    padding: 60px 0px 0px 30px;
+}
+
+.button2{
+    padding: 60px 0px 0px 30px;
+}
+
+.button3{
+    padding: 60px 0px 0px 30px;
+}
