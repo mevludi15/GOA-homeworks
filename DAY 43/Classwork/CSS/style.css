@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+}
+
+.container{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+p{
+    font-family: "Outfit";
+    color: white;
+    font-size: 18px;
+}
+
+.text{
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-size: 14px;
+}
+
+.eth{
+    font-family: "Outfit";
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+
+.time{
+    color: hsl(215, 32%, 27%);
+    font-size: 14px;
+}
+
+.properti{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar1{
+    width: 30px;
+    height: 30px;
+}
+
+.creator{
+    font-size: 14px;
+    font-family: "Outfit";
+}
+
+a{
+    text-decoration: none;
+}
+
+.ethereum{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
