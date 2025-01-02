@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-image: url(../social-proof-section-master/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1400px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    width: 1400px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    padding: 80px 0px 0px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+    font-family: "League Spartan";
+    font-size: 50px;
+}
+
+.left_top{
+    color: hsl(303, 10%, 53%);
+    font-family: "League Spartan";
+    font-size: 15px;
+}
+
+.Reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: space-around;
+}
+
+.Reviews p{
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Report p{
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.BestTech p{
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 64px;
+}
+
+.BestTech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 128px;
+}
+
+.bottom{
+    width: 1400px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calton, .irene, .anne{
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    height: 240px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.image1, .image2, .image3{
+    display: flex;
+    align-items: center;
+}
+
+.avatar_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+
+.avatar_img1{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar_img2{
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar_img3{
+    display: flex;
+    flex-direction: row;
+}
+
+.Buyer{
+    color: hsl(333, 80%, 67%);
+    font-family: "League Spartan";
+}
+
+.name{
+    color: white;
+    font-family: "League Spartan";
+}
+
+p{
+    color: white;
+    font-family: "League Spartan";
+    font-weight: 500;
+}
+
+
+.irene{
+    margin-top: 32px;
+}
+
+.anne{
+    margin-top: 64px;
+}
