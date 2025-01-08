@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color:hsl(257, 40%, 49%);
+    background-image: url("../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    font-family: 'Open Sans';
+}
+
+h1{
+    font-weight: 700;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    margin-top: 256px;
+    flex-direction: column;
+    line-height: 1.6;
+    margin-left: 128px;
+}
+
+button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: hsl(300, 69%, 71%);
+    box-shadow: 0 0 2px;
+}
+
+.Huddle{
+    width: 200px;
+    height: 70px;
+}
+
+img{
+    margin-top: 64px;
+}
+
