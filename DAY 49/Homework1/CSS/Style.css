@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../conference-ticket-generator-main/assets/images/background-desktop.png); 
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+b{
+    color: red;
+}
+
+p{
+    color: hsl(252, 6%, 83%);
+    text-align: center;
+}

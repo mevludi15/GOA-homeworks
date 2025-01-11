@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Bokor&family=Dancing+Script:wght@400..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: rgb(233, 223, 223);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 750px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.left{
+    width: 40%;
+    height: 100%;
+}
+
+.right{
+    width: 60%;
+    height: 100%;
+}
+
+h1{
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-family: "Manrope";
+    padding: 15px;
+    font-size: 22px;
+}
+
+.text{
+    color: hsl(214, 17%, 51%);
+    margin-left: 15px;
+}
+
+.avatar-michelle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar1{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+b{
+    color: hsl(217, 19%, 35%);
+}
+
+.name p{
+    color: hsl(212, 23%, 69%);
+}
+
+.Share img{
+    padding: 15px;
+    margin-left: 256px;
+}
