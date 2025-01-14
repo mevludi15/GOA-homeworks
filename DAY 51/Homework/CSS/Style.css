@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 900px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.container div{
+    border-radius: 10px;
+    color: white;
+
+}
+
+.child1{
+    background-image: url("../images/caption.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(100, 148, 237, 0.637);
+}
+
+.child2{
+    background-image: url("../images/1513172064_48362600-300x300.jpg");
+    background-repeat: no-repeat;
+}
+
+.child3{
+    background-image: url("../images/NYSkyline01.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.child4{
+    background-image: url("../images/tour_eiffel.jpg.webp");
+    background-repeat: no-repeat;
+}
+
+.child5{
+    background-image: url("../images/041f1c088c2d6873eb4e01834cd4178e.jpg");
+    background-repeat: no-repeat;
+}
+
+.child6{
+    background-image: url("../images/dubai-panoramic-view-ii-walldisplay-wallpaper-dubai-abudhabi-33863884177558_300x300.avif");
+    background-repeat: no-repeat;
+}
