@@ -24,13 +24,16 @@ body{
 .container div{
     border-radius: 10px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .child1{
     background-image: url("../images/caption.jpg");
     background-repeat: no-repeat;
-    background-color: rgba(100, 148, 237, 0.637);
 }
 
 .child2{
