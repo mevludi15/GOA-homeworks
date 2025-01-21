@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.div1:hover{
+    transform: translate(50px);
+}
+
+.div2:hover{
+    transform: scale(2);
+}
+
+.div3:hover{
+    transform: scale(2);
+}
+
+.div3:active{
+    transform: scale(0.5);
+}
+
+
+.div4:hover{
+    transform: rotate(180deg);
+}
+
+.div5:hover{
+    
+}
