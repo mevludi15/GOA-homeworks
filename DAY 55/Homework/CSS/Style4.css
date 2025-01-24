@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    animation: animation4 4s;
+    background-color: red;
+    animation-delay: 2s;
+}
+
+@keyframes animation4{
+    0%{
+        transform: rotate(0deg) scale(1);
+    }
+
+    100%{
+        transform: rotate(360deg) scale(1.5);
+    }
+}

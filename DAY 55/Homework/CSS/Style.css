@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    animation: animation1 3s;
+}
+
+
+@keyframes animation1{
+    0%{
+        background-color: red;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
