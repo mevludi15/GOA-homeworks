@@ -12,13 +12,12 @@ res2 =list(map(lambda y: len(y), names1))
 print(res2)
 
 numbers1 = [-5, 3, -2, 7, 0, 10]
-res3 = list(filter(lambda x1: x1 > 0, numbers1))
+res3 = list(filter(lambda x1: x1 >= 0, numbers1))
 print(res3)
 
 words = ["pear", "apple", "peach", "grape"]
 res4 = list(filter(lambda w: w[0] == "p", words))
 print(res4)
-
 
 numbers = [10, 55, 42, 78, 65, 20]
 res5= list(filter(lambda x: x > 50, numbers))
