@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Dancing+Script:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sevillana&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../faq-accordion-main/assets/images/background-pattern-desktop.svg);
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(275, 100%, 97%);
+}
+
+main{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 2px hsl(292, 42%, 14%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+h1{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: "Work Sans";
+    font-weight: 700;
+}
+
+.content1,.content2,.content3,.content4{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+p{
+    display: none;
+    font-family: "Work Sans";
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.btn-img{
+    cursor: pointer;
+}
