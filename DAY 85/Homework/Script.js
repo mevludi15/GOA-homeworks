@@ -1,6 +1,6 @@
 const Arr = [1, 2, 3, 4, 5]
 
-const [ა, ბ, გ, დ, ე] = Arr
+const [one, two, three, four, five] = Arr
 
 const obj = {
     name: "mevludi",
