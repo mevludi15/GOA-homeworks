@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../interactive-card-details-form-main/images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#register{
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.font_image{
+    width: 550px;
+    height: 250px;
+    background-image: url(../interactive-card-details-form-main/images/bg-card-front.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.back_image{
+    width: 550px;
+    height: 250px;
+    background-image: url(../interactive-card-details-form-main/images/bg-card-back.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.code{
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.circle{
+    margin-left: 20px;
+}
+
+.name{
+    margin-left: 20px;
+}
+
+.date{
+    margin-left: 200px;
+}
+
+#card_name{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#card_number{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#mm{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#yy{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#cvc{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+button {
+    width: 350px;
+    height: 30px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
