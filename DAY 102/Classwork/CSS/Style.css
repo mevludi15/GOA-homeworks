@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(202, 86%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Plus Jakarta Sans";
+}
+
+.container{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 15px 15px 50px;
+    background-color: hsl(202, 55%, 16%);
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: row;
+}
+
+.Result{
+    margin-left: 110px;
+}
+
+.payment{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.money{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.mortgage{
+    display: flex;
+    flex-direction: row;
+}
+
+.years, .rate {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
