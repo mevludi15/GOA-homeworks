@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="calculator" style="margin-top: 10px;">
+                <p style="font-weight: 700; margin-left: 10px;">Mortgage Calculator</p>
+                <p style="color: hsl(200, 26%, 54%); margin-left: 100px; font-size: 12px;">Clear All</p>
+            </div>
+            <div class="amount" style="margin-left: 10px; margin-top: 15px;">
+                <p style="color: hsl(200, 26%, 54%);font-size: 12px; margin-bottom: 5px;">Mortgage Amount</p>
+                <input type="number" required class="money">
+            </div>
+            <div class="mortgage">
+                <div class="m_left" style="margin-left: 10px;">
+                    <p style="color: hsl(200, 26%, 54%);margin-top: 20px; font-size: 12px;">Mortgage Term</p>
+                    <input type="number" placeholder="years" required class="years" style="margin-top: 5px;">
+                </div>
+                <div class="m_right" style="margin-left: 20px;">
+                    <p style="color: hsl(200, 26%, 54%); font-size: 12px; margin-top: 20px;">Interest Rate</p>
+                    <input type="number" class="rate" required style="margin-top: 5px;">
+                </div>
+            </div>
+            <div class="type">
+                <p style="color: hsl(200, 26%, 54%);font-size: 12px; margin-top: 20px; margin-left: 10px;">Mortgage Type</p>
+            </div>
+            <button>Calculate repayments</button>
+        </div>
+        <div class="right">
+            <img src="./mortgage-repayment-calculator-main/assets/images/illustration-empty.svg" alt="" height="180px" style="margin-top: 50px;">
+            <p style="color: white; font-weight: 700;" class="Result">Results shown here</p>
+            <p style="font-size: 12px; color: hsl(200, 26%, 54%);" class="payment">Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+        </div>
+    </div>
+</body>
+</html>
