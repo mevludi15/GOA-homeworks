@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}
+
+div:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+p{
+    color: gray;
+}
+
+#price{
+    color: black;
+}
+
+button{
+    background-color: yellow;
+    width: 70px;
+    height: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.prs{
+    margin-left: 450px;
+    margin-right: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.regieter1{
+    margin-left: 200px;
+}

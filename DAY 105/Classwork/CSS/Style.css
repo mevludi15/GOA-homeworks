@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text";
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(13, 31%, 94%);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+}
